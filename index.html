@@ -1983,7 +1983,7 @@
             <div
     x-data="{
         activeImage: 0,
-        amountOfImages: 45,
+        amountOfImages: 44,
         next() {
             if (this.activeImage < this.amountOfImages - 1)
                 this.activeImage ++;
@@ -2747,23 +2747,6 @@
                 </div>
             </li>
         
-            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" hidden ">
-                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 44; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
-                        <div class="aspect-w-3 aspect-h-2">
-                            
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/45f84949-370f-4f87-a212-61f2c5bd5c70.jpeg" alt="Landscape Design &amp; Installation for Dahl&#x27;s Landscape &amp; Design in Waukesha, WI" loading="lazy"/>
-                            
-                        </div>
-
-                        <div class="space-y-1 text-lg font-medium leading-6">
-                            <p class="line-clamp-3"></p>
-                            <h3 class="text-primary"></h3>
-                        </div>
-                    </button>
-                </div>
-            </li>
-        
     </ul>
 
     <template x-teleport="body">
@@ -3111,13 +3094,6 @@
                                     <li class="flex flex-col" x-show="activeImage === 43">
                                             
                                             <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/c723de12-f4cf-4d42-aa5b-8a33d507b7b7.jpeg" alt="Landscape Design &amp; Installation for Dahl&#x27;s Landscape &amp; Design in Waukesha, WI" loading="lazy"/>
-                                            <p lorem="1" class="mt-3 text-gray-500"></p>
-                                        
-                                    </li>
-                                
-                                    <li class="flex flex-col" x-show="activeImage === 44">
-                                            
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/45f84949-370f-4f87-a212-61f2c5bd5c70.jpeg" alt="Landscape Design &amp; Installation for Dahl&#x27;s Landscape &amp; Design in Waukesha, WI" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
