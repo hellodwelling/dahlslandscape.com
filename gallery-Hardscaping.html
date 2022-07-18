@@ -1009,7 +1009,7 @@
             <div
     x-data="{
         activeImage: 0,
-        amountOfImages: 14,
+        amountOfImages: 13,
         next() {
             if (this.activeImage < this.amountOfImages - 1)
                 this.activeImage ++;
@@ -1200,7 +1200,7 @@
                     <button @click="activeImage = 10; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/6b09fac5-6e8a-4f81-9fc5-3fd35f76e9c1.jpeg" alt="Hardscaping for Dahl&#x27;s Landscape &amp; Design in Waukesha, WI" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/a6e5d249-45dd-4d0e-aebc-6e071c2e143c.jpeg" alt="Hardscaping for Dahl&#x27;s Landscape &amp; Design in Waukesha, WI" loading="lazy"/>
                             
                         </div>
 
@@ -1217,23 +1217,6 @@
                     <button @click="activeImage = 11; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/a6e5d249-45dd-4d0e-aebc-6e071c2e143c.jpeg" alt="Hardscaping for Dahl&#x27;s Landscape &amp; Design in Waukesha, WI" loading="lazy"/>
-                            
-                        </div>
-
-                        <div class="space-y-1 text-lg font-medium leading-6">
-                            <p class="line-clamp-3"></p>
-                            <h3 class="text-primary"></h3>
-                        </div>
-                    </button>
-                </div>
-            </li>
-        
-            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
-                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 12; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
-                        <div class="aspect-w-3 aspect-h-2">
-                            
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/f2a20d79-e5e4-4e8b-86a7-1dd0ff34f6d9.jpeg" alt="Hardscaping for Dahl&#x27;s Landscape &amp; Design in Waukesha, WI" loading="lazy"/>
                             
                         </div>
@@ -1248,7 +1231,7 @@
         
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 13; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                    <button @click="activeImage = 12; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/5fceabd8-a5c6-4024-8ca7-7e5b3faf7516.jpeg" alt="Hardscaping for Dahl&#x27;s Landscape &amp; Design in Waukesha, WI" loading="lazy"/>
@@ -1378,26 +1361,19 @@
                                 
                                     <li class="flex flex-col" x-show="activeImage === 10">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/6b09fac5-6e8a-4f81-9fc5-3fd35f76e9c1.jpeg" alt="Hardscaping for Dahl&#x27;s Landscape &amp; Design in Waukesha, WI" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/a6e5d249-45dd-4d0e-aebc-6e071c2e143c.jpeg" alt="Hardscaping for Dahl&#x27;s Landscape &amp; Design in Waukesha, WI" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 11">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/a6e5d249-45dd-4d0e-aebc-6e071c2e143c.jpeg" alt="Hardscaping for Dahl&#x27;s Landscape &amp; Design in Waukesha, WI" loading="lazy"/>
-                                            <p lorem="1" class="mt-3 text-gray-500"></p>
-                                        
-                                    </li>
-                                
-                                    <li class="flex flex-col" x-show="activeImage === 12">
-                                            
                                             <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/f2a20d79-e5e4-4e8b-86a7-1dd0ff34f6d9.jpeg" alt="Hardscaping for Dahl&#x27;s Landscape &amp; Design in Waukesha, WI" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
-                                    <li class="flex flex-col" x-show="activeImage === 13">
+                                    <li class="flex flex-col" x-show="activeImage === 12">
                                             
                                             <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/5fceabd8-a5c6-4024-8ca7-7e5b3faf7516.jpeg" alt="Hardscaping for Dahl&#x27;s Landscape &amp; Design in Waukesha, WI" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
